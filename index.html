@@ -51,13 +51,10 @@
 								</li>
 								<li role="separator" class="divider"></li>
 								<li class="advanced-tooltip tooltip-right">
-									<a href="#strong-skills">Advanced Skills</a>
+									<a href="#skills">Skills</a>
 								</li>
 								<li class="intermediate-tooltip tooltip-right">
-									<a href="#moderate-skills">Intermediate Skills</a>
-								</li>
-								<li class="basic-tooltip tooltip-right">
-									<a href="#weak-skills">Basic Skills</a>
+									<a href="#certifications">Certifications</a>
 								</li>
 								<li role="separator" class="divider"></li>
 								<li class="education-tooltip tooltip-right">
@@ -86,8 +83,9 @@
 					<li>
 						<h5><strong>Knight Watch Inc - Software Developer</strong> July 2013 - Present</h5>
 						<ul>
-							<li>Designed, developed, deployed, and maintained 3 Web and 4 Desktop applications related to building access control</li>
+							<li>Designed, developed, deployed, and maintained 3 Web and 4 Desktop applications related to building access control integration</li>
 							<li>Designed, developed, and maintained databases for 2 Web applications</li>
+							<li>Designed, developed, and maintained 2 SQL Server Agent jobs to add features to existing applications</li>
 							<li>Database administration (MS SQL)</li>
 							<li>Communicated directly with customers to establish and refine requirements</li>
 							<li>Communicated directly with customers to troubleshoot product issues and deliver fixes in a timely manner</li>
@@ -95,20 +93,14 @@
 					</li>
 				</ul>
 			</div>
-			<div id="strong-skills" class="row resume-section">
-				<h4 class="ro advanced-tooltip tooltip-top">Advanced Skills</h4>
+			<div id="skills" class="row resume-section">
+				<h4 class="ro skills-tooltip tooltip-top">Skills</h4>
 				<ul>
 					<li>C#, LINQ - 2 years experience</li>
 					<li>C - 2 years experience</li>
-				</ul>
-			</div>
-			<div id="moderate-skills" class="row resume-section">
-				<h4 class="yo intermediate-tooltip tooltip-top">Intermediate Skills</h4>
-				<ul>
 					<li>C++ - 1 year experience</li>
 					<li>Java - 2 years experience</li>
-					<li>HTML 5 - 2 years experience</li>
-					<li>Javascript - 2 years experience</li>
+					<li>HTML 5 / Javascript / CSS - 2 years experience</li>
 					<li>.NET Framework - 2 years experience</li>
 					<li>ASP.NET MVC - 2 years experience</li>
 					<li>Windows Forms - 2 years experience</li>
@@ -116,29 +108,28 @@
 					<li>MS Entity Framework - 2 years experience</li>
 					<li>XML, JSON</li>
 					<li>Microsoft Visual Studio</li>
-					<li>Eclipse IDE</li>
-				</ul>
-			</div>
-			<div id="weak-skills" class="row resume-section">
-				<h4 class="g basic-tooltip tooltip-top">Basic Skills</h4>
-				<ul>
-					<li>CSS</li>
-					<li>Windows Communication Foundation (WCF)</li>
 					<li>Software Design</li>
 					<li>User Interface Design</li>
 					<li>Requirements Engineering</li>
-					<li>Linux: Ubuntu, Fedora</li>
 					<li>Windows Server 2008 R2, IIS 7</li>
 				</ul>
 			</div>
+			<div id="certifications" class="row resume-section">
+				<h4 class="yo certs-tooltip tooltip-top">Certifications</h4>
+				<ul>
+					<li>Microsoft Certified Professional (MCP) - 1/14/2016</li>
+					<li>Microsoft Specialist: Programming in C# - 1/14/2016</li>
+					<li>Microsoft Certified Solutions Associate: SQL Server 2012 - 3/11/2016</li>
+				</ul>
+			</div>
 			<div id="education" class="row resume-section">
-				<h4 class="l education-tooltip tooltip-top">Education</h4>
+				<h4 class="g education-tooltip tooltip-top">Education</h4>
 				<ul>
 					<li><strong>Michigan Technological University </strong>- B.S. Computer Science Class of 2013</li>
 				</ul>
 			</div>
 			<div class="row resume-section">
-				<h4 id="top" class="e contact-tooltip tooltip-top">Contact Information</h4>
+				<h4 id="top" class="l contact-tooltip tooltip-top">Contact Information</h4>
 			</div>
 			<div class ="row" style="padding-bottom: 70px;">
 				<div class="col-md-4">
@@ -147,11 +138,12 @@
 				</div>
 				<div class="col-md-4" style="text-align: center;">
 					<p><b>Phone</b></p>
-					<p>269-532-0462</p>
+					<p>Cell/Home: 269-532-0462</p>
+					<p>Office: 269-381-2100 x1005</p>
 				</div>
 				<div class="col-md-4" style="text-align: right;">
 					<p><b>Email</b></p>
-					<p>wolf@mtu.edu</p>
+					<p>awolf@knighwatch.net</p>
 				</div>
 			</div>
 		</div>
@@ -163,9 +155,8 @@
 		<script>
 			$(document).ready(function() {
 				$(".experience-tooltip").attr("title", "Where I've worked, what I've done.");
-				$(".advanced-tooltip").attr("title", "What I consider to be my strongest skills.");
-				$(".intermediate-tooltip").attr("title", "Skills I consider myself to be decent at relative to my peers.");
-				$(".basic-tooltip").attr("title", "Skills I am still a beginner at, yet can accomplish simple tasks with.");
+				$(".skills-tooltip").attr("title", "What I consider to be my strongest skills.");
+				$(".certs-tooltip").attr("title", "Professional certifications I have earned.");
 				$(".education-tooltip").attr("title", "Where I went to school and what I studied.");
 				$(".contact-tooltip").attr("title", "How to contact me.");
 				$(".tooltip-top").attr({
